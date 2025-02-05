@@ -10,6 +10,12 @@
   <name>clear</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+  <!-- Spring MVC framework -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>${org.springframework.version}</version>
+</dependency>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
